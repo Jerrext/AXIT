@@ -1,0 +1,40 @@
+@mixin text ($ff, $fs: 18px, $fw: 400, $lh: 21px, $ta: center) {
+	font-family: $ff;
+	font-size: $fs;
+	font-weight: $fw;
+	line-height: $lh;
+	text-align: $ta;
+}
+
+@mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: #EC7979, $btncolorH, $btnborderH: 0, $btnbgH: #AB4949, $btnbgA: #EC7979, $btnbsA: 0) {
+	color: #fff;
+	transition: .3s;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: $btnborder;
+	border-radius: $btnborderR;
+	background-color: $btnbg;
+	&:hover {
+		color: $btncolorH;
+		border: $btnborderH;
+		background-color: $btnbgH;
+	}
+	&:active {
+		border: 0;
+		background-color: $btnbgA;
+		box-shadow: $btnbsA;
+		color: #fff;
+	}
+}
+
+@mixin hr ($hrbg: #EC7979) {
+	&::before {
+		position: absolute;
+		content: '';
+		height: 1px;
+		width: 170px;
+		background-color: $hrbg;
+	}
+}

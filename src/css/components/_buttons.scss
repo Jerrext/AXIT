@@ -1,0 +1,6 @@
+.banner-first__btn {
+	@include buttons ($btnborder: $btnborder1N, $btnbg: $btnbg1N, $btncolorH: $btncolor1H, $btnborderH: $btnborder1H, $btnbgH: $btnbg1H, $btnbgA: $btnbg1A);
+	@include text ($ffos, $fsbtn, $sbold, 24px);
+	width: 270px;
+	height: 58px;
+}
