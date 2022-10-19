@@ -1,0 +1,35 @@
+:root {
+	@include text ($ta: left);
+}
+
+.header__nav-link {
+	@include text ($ffos, $fsnav, $sbold, 19px);
+}
+
+.banner-first__btn, .tabs__btn {
+	@include text ($ffos, $fsbtn, $sbold, 24px);
+}
+
+h1 {
+	@include text ($ffrw, $fsh1, $medium, 56px, $ta: left, $tt: uppercase);
+}
+
+h2 {
+	@include text ($ffrw, $fsh2, $regular, 42px);
+}
+
+h3 {
+	@include text ($ffos, $fsh3, $bold, 41px, $tt: uppercase);
+}
+
+h4 {
+	@include text ($ffos, $fsh4, $bold, 33px);
+}
+
+legend {
+	@include text ($ffos, $fsh4, $bold, 90px);
+}
+
+input:not(input[type=submit]), textarea {
+	@include text ($ffos, $fsfield, $regular, 19px, $ta: left);
+}

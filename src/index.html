@@ -9,240 +9,245 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__wrapper">
-			<a href="#banner-first"><img src="img/logo.svg" alt="Logo"></a>
-			<nav class="header__navigation">
-				<ul>
-					<li><a href="#banner-first">Features</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#pricing">Pricing</a></li>
-					<li><a href="#reviews">Reviews</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-			<input type="checkbox" id="nav-toggle" hidden>
-			<label for="nav-toggle" class="header__burger-menu" onclick></label>
-			<nav class="header__burger-nav">
-				<ul>
-				   <li><a href="#home" class=""><label for="nav-toggle" onclick>Features</label></a></li>
-				   <li><a href="#about" class="link text_bold"><label for="nav-toggle" onclick>About</label></a></li>
-				   <li><a href="#skills" class=""><label for="nav-toggle" onclick>Pricing</label></a></li>
-				   <li><a href="#portfolio" class=""><label for="nav-toggle" onclick>Reviews</label></a></li>
-				   <li><a href="#contacts" class=""><label for="nav-toggle" onclick>Contact</label></a></li>
-				</ul>
-			</nav>
-			<label for="nav-toggle" class="burger-menu-close" onclick></label>
-	</header>
-	<main>
-		<section class="banner-first" id="banner">
-			<div class="container">
-				<div class="banner-first__wrapper">
-					<div class="banner-first__left">
-						<img src="img/logo.svg" alt="Logo">
-						<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-						<a href="#" class="banner-first__btn">Download</a>
-					</div>
-					<div class="banner-first__right">
-						<form action="" method="get">
-							<legend>Try Your <span>FREE</span> Trial Today</legend>
-							<input type="text" placeholder="Name">
-							<input type="email" placeholder="Email">
-							<input type="password" placeholder="Password">
-							<input type="submit" value="Get Started">
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="social">
-			<div class="container">
-				<div class="social__wrapper">
-					<div class="social__left">
-						<h3>Social Media</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-					</div>
-					<div class="social__right">
-
-					</div>
-				</div>
-				<
-			</div>
-		</section>
-		<section class="tabs">
-			<div class="container">
-				<div class="tabs__wrapper">
-					<ul>
-						<li><input type="radio" id="tab-1" hidden>
-						<label for="tab_1">TAB 1</label></li>
-						<li><input type="radio" id="tab-2" hidden>
-						<label for="tab_2">TAB 2</label></li>
-						<li><input type="radio" id="tab-3" hidden>
-						<label for="tab_3">TAB 3</label></li>
+		<div class="header__container">
+			<div class="header__wrapper">
+				<a href="#banner-first"><img src="img/logo.svg" alt="Logo" class="header__logo"></a>
+				<nav class="header__navigation">
+					<ul class="header__nav-list">
+						<li><a href="#banner-first" class="header__nav-link">Features</a></li>
+						<li><a href="#about" class="header__nav-link">About</a></li>
+						<li><a href="#pricing" class="header__nav-link">Pricing</a></li>
+						<li><a href="#reviews" class="header__nav-link">Reviews</a></li>
+						<li><a href="#contact" class="header__nav-link">Contact</a></li>
 					</ul>
-					<div class="tabs__content">
-						<div class="tabs__text">
-							<h3>Tabs with soft transitioning effect.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-							<a href="#" class="tabs__btn">Download</a>
-						</div>
-						<img src="img/picture.jpg" alt="Picture_1">
-					</div>
-					<div class="tabs__content">
-						<div class="tabs__text">
-							<h3>Nbsotto voenvoiea reogoieabv adfgasdgh.</h3>
-							<p>Waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib.</p>
-							<a href="#" class="tabs__btn">Download</a>
-						</div>
-						<img src="img/picture.jpg" alt="Picture 2">
-					</div>
-					<div class="tabs__content">
-						<div class="tabs__text">
-							<h3>Sldkfgse sogoigh arghoaisgn afggarfsxc.</h3>
-							<p>Asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg.</p>
-							<a href="#" class="tabs__btn">Download</a>
-						</div>
-						<img src="img/picture.jpg" alt="Picture 3">
-					</div>
+				</nav>
+				<div class="header__burger">
+				<input type="checkbox" id="nav-toggle" hidden>
+				<label for="nav-toggle" class="header__burger-menu" onclick></label>
+				<nav class="header__burger-nav">
+					<ul>
+						<li><a href="#home" class=""><label for="nav-toggle" onclick>Features</label></a></li>
+						<li><a href="#about" class="link text_bold"><label for="nav-toggle" onclick>About</label></a></li>
+						<li><a href="#skills" class=""><label for="nav-toggle" onclick>Pricing</label></a></li>
+						<li><a href="#portfolio" class=""><label for="nav-toggle" onclick>Reviews</label></a></li>
+						<li><a href="#contacts" class=""><label for="nav-toggle" onclick>Contact</label></a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="burger-menu-close" onclick></label>
 				</div>
 			</div>
-		</section>
-		<section class="about" id="about">
-			<div class="container">
-				<div class="about__wrapper">
-					<h2>WHY THIS IS AWESOME</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="about__items">
-						<div class="about__item">
-							<div class="about__bulb"></div>
-							<h3>Thoughtful Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+		</header>
+		<main>
+			<section class="banner-first" id="banner">
+				<div class="container">
+					<div class="banner-first__wrapper">
+						<div class="banner-first__left">
+							<img src="img/banner-logo.svg" alt="Logo" class="banner-first__logo">
+							<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+							<a href="#" class="banner-first__btn">Download</a>
 						</div>
-						<div class="about__item">
-							<div class="about__keyboard"></div>
-							<h3>Thoughtful Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-						</div>
-						<div class="about__item">
-							<div class="about__lightning"></div>
-							<h3>Thoughtful Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+						<div class="banner-first__right">
+							<form action="" method="get">
+								<div class="banner-first__fields">
+								<legend>Try Your <span>FREE</span> Trial Today</legend>
+								<input type="text" placeholder="Name" class="banner-first__field">
+								<input type="email" placeholder="Email" class="banner-first__field">
+								<input type="password" placeholder="Password" class="banner-first__field">
+								</div>
+								<input type="submit" value="Get Started" class="banner-first__submit">
+							</form>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="pricing" id="pricing">
-			<div class="container">
-				<div class="pricing__wrapper">
-					<h2>pricing options</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="pricing__items">
-						<div class="pricing__item">
-							<h3>Basic</h3>
-							<p>$10</p>
-							<a href="#">Free for life</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
+			</section>
+			<section class="social">
+				<div class="container">
+					<div class="social__wrapper">
+						<div class="social__left">
+							<h4>Social Media</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
 						</div>
-						<div class="pricing__item">
-							<h3>Optima</h3>
-							<p>$$20</p>
-							<a href="#">Free for life</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-						</div>
-						<div class="pricing__item">
-							<h3>Pro</h3>
-							<p>$$30</p>
-							<a href="#">Free for life</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-							<a href="#">1 gb of space</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="reviews" id="reviews">
-			<div class="container">
-				<div class="reviews__wrapper">
-					<h2>what our customers are saying</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<div class="reviews__items">
-						<div class="reviews__item">
-							<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-							<div class="reviews__people">
-								<img src="img/ava1.png" alt="Avatar">
-								<h3>Davis Rhiel Madsen</h3>
-								<p>Manager</p>
-							</div>
-						</div>
-						<div class="reviews__item">
-							<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-							<div class="reviews__people">
-								<img src="img/ava2.png" alt="Avatar">
-								<h3>Jaydon Rosser</h3>
-								<p>Manager</p>
-							</div>
-						</div>
-						<div class="reviews__item">
-							<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-							<div class="reviews__people">
-								<img src="img/ava3.png" alt="Avatar">
-								<h3>Cooper Dorwart</h3>
-								<p>Manager</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="banner-second">
-			<div class="container">
-				<div class="banner-second__wrapper">
-					<h2>STYLISH AXURE DESIGN</h2>
-					<p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-					<a href="#" class="banner-second__btn">Download</a>
-				</div>
-			</div>
-		</section>
-		<section class="contact" id="contact">
-			<div class="container">
-				<div class="contact__wrapper">
-					<h2>contact us</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<form action="" method="get">
-						<div class="contacnt__items">
-							<div class="contact__form-left">
-								<input type="text" placeholder="Name">
-								<input type="email" placeholder="Email">
-								<input type="password" placeholder="Password">
-							</div>
-							<textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-						</div>
-						<input type="submit" value="Send Message">
-					</form>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer class="footer">
-		<div class="footer__wrapper">
-			<div class="footer__social">
+						<div class="social__right">
 
-			</div>
-			<p>© 2015 Axure Themes</p>
-		</div>
-	</footer>
-</body>
-</html>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tabs">
+				<div class="container">
+					<div class="tabs__wrapper">
+						<ul>
+							<li><input type="radio" id="tab-1" hidden>
+								<label for="tab_1">TAB 1</label></li>
+								<li><input type="radio" id="tab-2" hidden>
+									<label for="tab_2">TAB 2</label></li>
+									<li><input type="radio" id="tab-3" hidden>
+										<label for="tab_3">TAB 3</label></li>
+									</ul>
+									<div class="tabs__content">
+										<div class="tabs__text">
+											<h3>Tabs with soft transitioning effect.</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+											<a href="#" class="tabs__btn">Download</a>
+										</div>
+										<img src="img/picture.jpg" alt="Picture_1">
+									</div>
+									<div class="tabs__content">
+										<div class="tabs__text">
+											<h3>Nbsotto voenvoiea reogoieabv adfgasdgh.</h3>
+											<p>Waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib waebibe uiwerbgfau osdagaajo aorfgobag raebgib.</p>
+											<a href="#" class="tabs__btn">Download</a>
+										</div>
+										<img src="img/picture.jpg" alt="Picture 2">
+									</div>
+									<div class="tabs__content">
+										<div class="tabs__text">
+											<h3>Sldkfgse sogoigh arghoaisgn afggarfsxc.</h3>
+											<p>Asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg asggdsfgontes sdfgrsgsdgz g resergs fdzgr zgfgfdgdg.</p>
+											<a href="#" class="tabs__btn">Download</a>
+										</div>
+										<img src="img/picture.jpg" alt="Picture 3">
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="about" id="about">
+							<div class="container">
+								<div class="about__wrapper">
+									<h2>WHY THIS IS AWESOME</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<div class="about__items">
+										<div class="about__item">
+											<div class="about__bulb"></div>
+											<h3>Thoughtful Design</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+										</div>
+										<div class="about__item">
+											<div class="about__keyboard"></div>
+											<h3>Thoughtful Design</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+										</div>
+										<div class="about__item">
+											<div class="about__lightning"></div>
+											<h3>Thoughtful Design</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="pricing" id="pricing">
+							<div class="container">
+								<div class="pricing__wrapper">
+									<h2>pricing options</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<div class="pricing__items">
+										<div class="pricing__item">
+											<h3>Basic</h3>
+											<p>$10</p>
+											<a href="#">Free for life</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+										</div>
+										<div class="pricing__item">
+											<h3>Optima</h3>
+											<p>$$20</p>
+											<a href="#">Free for life</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+										</div>
+										<div class="pricing__item">
+											<h3>Pro</h3>
+											<p>$$30</p>
+											<a href="#">Free for life</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+											<a href="#">1 gb of space</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="reviews" id="reviews">
+							<div class="container">
+								<div class="reviews__wrapper">
+									<h2>what our customers are saying</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<div class="reviews__items">
+										<div class="reviews__item">
+											<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+											<div class="reviews__people">
+												<img src="img/ava1.png" alt="Avatar">
+												<h3>Davis Rhiel Madsen</h3>
+												<p>Manager</p>
+											</div>
+										</div>
+										<div class="reviews__item">
+											<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+											<div class="reviews__people">
+												<img src="img/ava2.png" alt="Avatar">
+												<h3>Jaydon Rosser</h3>
+												<p>Manager</p>
+											</div>
+										</div>
+										<div class="reviews__item">
+											<p>Lorem ipsum dolor sit amet,  adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+											<div class="reviews__people">
+												<img src="img/ava3.png" alt="Avatar">
+												<h3>Cooper Dorwart</h3>
+												<p>Manager</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="banner-second">
+							<div class="container">
+								<div class="banner-second__wrapper">
+									<h2>STYLISH AXURE DESIGN</h2>
+									<p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+									<a href="#" class="banner-second__btn">Download</a>
+								</div>
+							</div>
+						</section>
+						<section class="contact" id="contact">
+							<div class="container">
+								<div class="contact__wrapper">
+									<h2>contact us</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<form action="" method="get">
+										<div class="contacnt__items">
+											<div class="contact__form-left">
+												<input type="text" placeholder="Name">
+												<input type="email" placeholder="Email">
+												<input type="password" placeholder="Password">
+											</div>
+											<textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+										</div>
+										<input type="submit" value="Send Message">
+									</form>
+								</div>
+							</div>
+						</section>
+					</main>
+					<footer class="footer">
+						<div class="footer__wrapper">
+							<div class="footer__social">
+
+							</div>
+							<p>© 2015 Axure Themes</p>
+						</div>
+					</footer>
+				</body>
+				</html>

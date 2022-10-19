@@ -1,5 +1,8 @@
 $bghf: #000;
-$ff: 'Raleway', sans-serif;
+
+$textcolor: #86878B;
+
+$ffrw: 'Raleway', sans-serif;
 $ffos: 'Open Sans', sans-serif;
 // font-weight
 $regular: 400;
@@ -9,6 +12,8 @@ $bold: 700;
 // font-size
 $fsnav: 14px;
 $fsbtn: 18px;
+$fstext: 18px;
+$fsfield: 14px;
 $fsh1: 48px;
 $fsh2: 36px;
 $fsh3: 30px;
@@ -16,7 +21,7 @@ $fsh4: 24px;
 // buttons
 $navbgN:transparent;
 $navbgH: #EC7979;
-$navbgA: #AB4949;
+$navbgH: #AB4949;
 
 $btnborder1N: 2px solid #FFFFFF;
 $btnborder1H: 2px solid #EC7979;
@@ -26,6 +31,6 @@ $btnbg1A: #AB4949;
 $btncolor1H: #EC7979;
 
 $btnborderR2N: 0px 0px 10px 10px;
-$btnbs2A: inset 0 0 8px 1px;
+$btnbs2A: inset 0 0 15px -5px #000;
 
-$btnbs3A: inset 0 0 8px 1px;
+$btnbs3A: inset 0 0 15px -5px #000;

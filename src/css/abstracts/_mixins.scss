@@ -1,12 +1,13 @@
-@mixin text ($ff, $fs: 18px, $fw: 400, $lh: 21px, $ta: center) {
+@mixin text ($ff: $ffrw, $fs: 18px, $fw: 400, $lh: 21px, $ta: center, $tt: none) {
 	font-family: $ff;
 	font-size: $fs;
 	font-weight: $fw;
 	line-height: $lh;
 	text-align: $ta;
+	text-transform: $tt;
 }
 
-@mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: #EC7979, $btncolorH, $btnborderH: 0, $btnbgH: #AB4949, $btnbgA: #EC7979, $btnbsA: 0) {
+@mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: #EC7979, $btncolorH: #fff, $btnborderH: 0, $btnbgH: #AB4949, $btnbgA: #EC7979, $btnbsA: 0) {
 	color: #fff;
 	transition: .3s;
 	box-sizing: border-box;

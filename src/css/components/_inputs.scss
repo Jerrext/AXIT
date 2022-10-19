@@ -1,0 +1,29 @@
+input:not(input[type=submit]), textarea {
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 16px 0;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+
+	&::-webkit-input-placeholder {
+		color: #BDBDBD;
+	}
+	&:-moz-placeholder {
+	   color: #BDBDBD;
+	}
+	&::-moz-placeholder {
+	   color: #BDBDBD;
+	}
+	&:-ms-input-placeholder {
+	   color: #BDBDBD;
+	}
+}
+
+.banner-first__submit {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}

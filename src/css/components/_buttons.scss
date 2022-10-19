@@ -1,6 +1,22 @@
+.header__nav-link {
+	@include buttons ($btnbg: $navbgN, $btnbgH: $navbgH, $btnbgA: $navbgH);
+	width: 114px;
+	height: 75px;
+}
+
 .banner-first__btn {
 	@include buttons ($btnborder: $btnborder1N, $btnbg: $btnbg1N, $btncolorH: $btncolor1H, $btnborderH: $btnborder1H, $btnbgH: $btnbg1H, $btnbgA: $btnbg1A);
-	@include text ($ffos, $fsbtn, $sbold, 24px);
 	width: 270px;
 	height: 58px;
+}
+
+.tabs__btn {
+	@include buttons ($btnbsA: $btnbs3A);
+	width: 270px;
+	height: 58px;
+}
+
+.banner-first__submit {
+	@include buttons ($btnbsA: $btnbs3A, $btnborderR: $btnborderR2N);
+	cursor: pointer;
 }
