@@ -2,10 +2,15 @@ input:not(input[type=submit]), textarea {
 	background-color: transparent;
 	border: 0;
 	border-bottom: 1px solid #BDBDBD;
-	padding: 16px 0;
+	padding: 16px 3px;
 	box-sizing: border-box;
 	display: block;
 	width: 100%;
+	transition: .2s;
+	outline: 0;
+
+	&:focus  {
+		border-bottom: 1px solid $maincolor;	}
 
 	&::-webkit-input-placeholder {
 		color: #BDBDBD;

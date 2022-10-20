@@ -10,6 +10,10 @@
 	@include text ($ffos, $fsbtn, $sbold, 24px);
 }
 
+label {
+	@include text ($ffos, $fsnav, $regular, 19px);
+}
+
 h1 {
 	@include text ($ffrw, $fsh1, $medium, 56px, $ta: left, $tt: uppercase);
 }

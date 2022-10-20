@@ -7,7 +7,7 @@
 	text-transform: $tt;
 }
 
-@mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: #EC7979, $btncolorH: #fff, $btnborderH: 0, $btnbgH: #AB4949, $btnbgA: #EC7979, $btnbsA: 0) {
+@mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: $maincolor, $btncolorH: #fff, $btnborderH: 0, $btnbgH: $secondarycolor, $btnbgA: $maincolor, $btnbsA: 0) {
 	color: #fff;
 	transition: .3s;
 	box-sizing: border-box;
@@ -30,12 +30,39 @@
 	}
 }
 
-@mixin hr ($hrbg: #EC7979) {
+@mixin hr ($hrbg: $maincolor, $left: 50%, $translate: -50%) {
 	&::before {
 		position: absolute;
 		content: '';
 		height: 1px;
 		width: 170px;
 		background-color: $hrbg;
+		bottom: 0;
+		left: $left;
+		transform: translateX($translate);
+	}
+}
+
+@mixin wrapper {
+	& > h2 {
+		line-height: 150px;
+		position: relative;
+		@include hr;
+	}
+
+	& > p {
+		margin-top: 40px;
+	}
+}
+
+@mixin item {
+	margin-right: 30px;
+	max-width: 370px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:last-child {
+		margin: 0;
 	}
 }

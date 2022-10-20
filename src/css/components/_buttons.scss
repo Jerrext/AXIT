@@ -1,11 +1,11 @@
 .header__nav-link {
-	@include buttons ($btnbg: $navbgN, $btnbgH: $navbgH, $btnbgA: $navbgH);
+	@include buttons ($btnbg: $navbgN, $btnbgH: $maincolor, $btnbgA: $secondarycolor);
 	width: 114px;
 	height: 75px;
 }
 
 .banner-first__btn {
-	@include buttons ($btnborder: $btnborder1N, $btnbg: $btnbg1N, $btncolorH: $btncolor1H, $btnborderH: $btnborder1H, $btnbgH: $btnbg1H, $btnbgA: $btnbg1A);
+	@include buttons ($btnborder: $btnborder1N, $btnbg: $btnbg1N, $btncolorH: $maincolor, $btnborderH: $btnborder1H, $btnbgH: $btnbg1H, $btnbgA: $secondarycolor);
 	width: 270px;
 	height: 58px;
 }

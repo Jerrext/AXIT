@@ -1,0 +1,70 @@
+.tabs {
+	padding-top: 99px;
+
+	&__content {
+		display: none;
+	}
+
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		border: 1px solid #C6CBCD;
+		background-color: #ededed;
+	}
+
+	input[type="radio"] {
+		display: none;
+	}
+
+	&__text {
+		padding: 0 30px 54px 100px;
+		width: 59%;
+
+		h3 {
+			line-height: 124px;
+			text-align: left;
+			text-transform: none;
+		}
+
+		p {
+			margin: 27px 0;
+			text-align: left;
+		}
+	}
+
+	&__img {
+		width: 40%;
+		overflow: hidden;
+
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	label {
+		display: inline-block;
+		width: 172px;
+		line-height: 42px;
+		text-align: center;
+		transform: translateY(1px);
+		cursor: pointer;
+		color: #333333;
+		text-transform: uppercase;
+	}
+
+	#tab-1:checked ~ .tab-one, #tab-2:checked ~ .tab-two, #tab-3:checked ~ .tab-three {
+		display: block;
+	}
+
+	#tab-1:checked ~ &__label-one, #tab-2:checked ~ &__label-two, #tab-3:checked ~ &__label-three {
+		background-color: #ededed;
+		border: 1px solid #C6CBCD;
+		border-bottom: 0;
+		border-radius: 5px 5px 0 0;
+		box-sizing: border-box;
+	}
+}

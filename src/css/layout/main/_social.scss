@@ -1,0 +1,31 @@
+.social {
+	background-color: #F8EFEF;
+	text-align: left;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+		max-width: 470px;
+		margin-right: 30px;
+
+		h4 {
+			line-height: 60px;
+			color: #333333;
+			text-align: left;
+		}
+
+		p {
+			margin: 18px 0;
+		}
+	}
+
+	&__right {
+		margin-top: 35px;
+		display: flex;
+		justify-content:space-between;
+		width: 100%;
+	}
+}
