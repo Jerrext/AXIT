@@ -4,15 +4,13 @@
 	height: 75px;
 }
 
-.banner-first__btn {
+.banner-first__btn, .banner-second__btn {
 	@include buttons ($btnborder: $btnborder1N, $btnbg: $btnbg1N, $btncolorH: $maincolor, $btnborderH: $btnborder1H, $btnbgH: $btnbg1H, $btnbgA: $secondarycolor);
-	width: 270px;
 	height: 58px;
 }
 
-.tabs__btn {
+.tabs__btn, .contact__btn {
 	@include buttons ($btnbsA: $btnbs3A);
-	width: 270px;
 	height: 58px;
 }
 

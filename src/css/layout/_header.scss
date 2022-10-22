@@ -27,4 +27,80 @@
 	&__burger {
 		display: none;
 	}
+
+	&__burger-menu, &__burger-menu:after, &__burger-menu:before {
+		width: 24px;
+		height: 4px;
+		background-color: #fff;
+		position: absolute;
+		top: 26px;
+		right: 35px;
+	}
+
+	&__burger-menu {
+
+		&:after {
+			top: 7px;
+			right: 0;
+			content: '';
+		}
+
+		&:before {
+			top: -7px;
+			right: 0;
+			content: '';
+		}
+	}
+
+	input[type="checkbox"] {
+		display: none;
+	}
+
+	&__burger-nav {
+		display: none;
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		background-color: #000;
+		text-align: center;
+		top: 56px;
+	}
+
+	&__burger-link {
+		line-height: 67px;
+		color: #fff;
+	}
+
+	&__burger-menu_close, &__burger-menu_close::before{
+		width: 24px;
+		height: 3px;
+		background-color: #fff;
+		position: absolute;
+		transform: rotate(45deg);
+		top: 26px;
+		right: 36px;
+		display: none;
+	}
+
+	&__burger-menu_close::before {
+		transform: rotate(90deg);
+		content: '';
+		top: 0;
+		right: 0;
+	}
+
+
+	input[type="checkbox"]:checked ~ &__burger-nav {
+		right: 0px;
+		display: block;
+	}
+
+	input[type="checkbox"]:checked ~ &__burger-menu {
+		display: none;
+	}
+
+	input[type="checkbox"]:checked ~ &__burger-menu_close, input[type="checkbox"]:checked ~ &__burger-menu_close::before {
+		display: block;
+	}
 }
+

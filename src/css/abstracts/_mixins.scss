@@ -43,26 +43,52 @@
 	}
 }
 
-@mixin wrapper {
+@mixin wrapper ($hrbg: $maincolor, $left: 50%, $translate: -50%) {
 	& > h2 {
 		line-height: 150px;
 		position: relative;
-		@include hr;
+
+		&::before {
+		position: absolute;
+		content: '';
+		height: 1px;
+		width: 170px;
+		background-color: $hrbg;
+		bottom: 0;
+		left: $left;
+		transform: translateX($translate);
+	}
 	}
 
 	& > p {
 		margin-top: 40px;
+		color: $textcolor;
 	}
 }
 
 @mixin item {
 	margin-right: 30px;
 	max-width: 370px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	&:last-child {
 		margin: 0;
+	}
+}
+
+@mixin darken {
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		opacity: .4;
+		z-index: -1;
+		left: 0;
+		top: 0;
 	}
 }

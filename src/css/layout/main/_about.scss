@@ -21,7 +21,12 @@
 		}
 	}
 
-	.blub {
+	&__img {
+		height: 170px;
+		width: 170px;
+	}
+
+	.bulb {
 		background: url("../img/about_icon_1.svg") no-repeat;
 	}
 

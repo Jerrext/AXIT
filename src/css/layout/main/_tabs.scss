@@ -11,7 +11,7 @@
 		justify-content: space-between;
 		width: 100%;
 		border: 1px solid #C6CBCD;
-		background-color: #ededed;
+		background-color: #f7f7f7;
 	}
 
 	input[type="radio"] {
@@ -32,6 +32,10 @@
 			margin: 27px 0;
 			text-align: left;
 		}
+	}
+
+	&__btn {
+		width: 270px;
 	}
 
 	&__img {
@@ -61,7 +65,7 @@
 	}
 
 	#tab-1:checked ~ &__label-one, #tab-2:checked ~ &__label-two, #tab-3:checked ~ &__label-three {
-		background-color: #ededed;
+		background-color: #f7f7f7;
 		border: 1px solid #C6CBCD;
 		border-bottom: 0;
 		border-radius: 5px 5px 0 0;

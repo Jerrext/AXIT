@@ -1,0 +1,28 @@
+.banner-second {
+	padding: 50px 0;
+	background: url("../img/banner2-bg.jpg") no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+
+	@include darken;
+
+	&__wrapper {
+		@include wrapper ($hrbg: #fff);
+
+		p {
+		color: #fff;
+	}
+	}
+
+	&__btn {
+		margin-top: 73px;
+		width: 370px;
+		height: 58px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

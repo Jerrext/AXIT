@@ -1,0 +1,27 @@
+.footer {
+	padding: 27px 0;
+	height: 164px;
+	width: 100%;
+	background-color: $bghf;
+	box-sizing: border-box;
+	text-align: center;
+
+	&__wrapper {
+		margin: 0 auto;
+		max-width: 570px;
+	}
+
+	&__social {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.social-link {
+		transform: scale(0.76);
+	}
+
+	p {
+		margin-top: 19px;
+		color: $textcolor;
+	}
+}
