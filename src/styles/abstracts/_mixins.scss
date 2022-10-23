@@ -5,7 +5,9 @@
 	line-height: $lh;
 	text-align: $ta;
 	text-transform: $tt;
+
 }
+
 
 @mixin buttons ($btnborder: 0, $btnborderR: 0, $btnbg: $maincolor, $btncolorH: #fff, $btnborderH: 0, $btnbgH: $secondarycolor, $btnbgA: $maincolor, $btnbsA: 0) {
 	color: #fff;

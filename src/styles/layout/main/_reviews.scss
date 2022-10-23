@@ -36,6 +36,7 @@
 	&__people {
 		margin-top: 46px;
 		display: flex;
+		width: 100%;
 
 		img {
 			height: 70px;
@@ -43,11 +44,12 @@
 	}
 
 	&__description {
-		margin-left: 30px;
 		text-align: left;
+		margin-left: 30px;
 
 		h4 {
 			line-height: 54px;
+			text-align: left;
 		}
 
 		p {
