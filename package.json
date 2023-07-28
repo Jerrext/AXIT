@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jerrext/Kursovoy/issues"
+    "url": "https://github.com/Jerrext/AXIT/issues"
   },
-  "homepage": "https://github.com/Jerrext/Kursovoy#readme",
+  "homepage": "https://github.com/Jerrext/AXIT#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "normalize.css": "^8.0.1",
