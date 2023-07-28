@@ -1,5 +1,4 @@
-@import 'rules';
-@import 'header';
-@import 'main/module';
-@import 'footer';
-@import 'media';
+@import './rules.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './media.scss';
